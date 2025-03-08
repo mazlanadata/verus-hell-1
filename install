@@ -1,0 +1,11 @@
+mkdir MINE
+cd MINE
+apt update -y && apt upgrade -y
+sleep 1
+apt install libsodium-dev -y
+wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz
+tar -xf hellminer_linux64.tar.gz
+sleep 1
+cd ..
+chmod +x mine
+bash mine
