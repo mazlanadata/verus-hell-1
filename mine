@@ -1,0 +1,3 @@
+cd MINE
+
+./hellminer -c stratum+tcp://cn.vipor.net:5040 -u RWYVC3GxedjoHxgd1b8qRrgRhNhnYCJ4V2.maz-10 -p x
